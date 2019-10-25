@@ -1,0 +1,14 @@
+package br.com.fiap.tddcriptografia;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class TestadorCriptografico {
+
+	@Test
+	void test() {
+		fail("Sem resposta contruída");
+	}
+
+}

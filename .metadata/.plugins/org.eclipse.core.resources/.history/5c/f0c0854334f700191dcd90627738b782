@@ -1,0 +1,14 @@
+package br.com.fiap.tddcriptografia;
+
+public class Criptografadora {
+
+	/*public int criptografa(char Letra) {
+		return 19;
+	}*/
+	
+	public int criptografa(char Letra) {
+		if(Letra == 'A') return 19;
+		else if(Letra == 'B') return 11;
+		return 0;
+	}
+}

@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Teste1 {
+
+	public static void main(String[] args) {
+		 
+		int dataEmissao = 0;
+		
+		int sysdate = 17;
+		
+		Scanner teclado = new Scanner(System.in);
+		
+		System.out.println("Entre com a data da nota:");
+		dataEmissao = teclado.nextInt();
+		
+		
+		if((dataEmissao > sysdate-10)&&(dataEmissao < sysdate)) {
+			System.out.println("Nota fiscal Permitida!");
+		}
+
+	}
+
+}

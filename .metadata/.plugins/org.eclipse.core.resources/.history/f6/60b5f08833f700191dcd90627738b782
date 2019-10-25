@@ -1,0 +1,23 @@
+package br.com.fiap.tddcriptografia;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.fail;
+
+import org.junit.jupiter.api.Test;
+
+class TestadorCriptografico {
+
+	@Test
+	void test() {
+		fail("Sem resposta contruída");
+	}
+
+	@Test
+	public void testeCriptograficoA() {
+
+	
+			Criptografadora conversor = new Criptografadora();
+			int nroConvertido = conversor.criptografa (´A´);
+			assertEquals(19, nroConvertido);
+	}
+}

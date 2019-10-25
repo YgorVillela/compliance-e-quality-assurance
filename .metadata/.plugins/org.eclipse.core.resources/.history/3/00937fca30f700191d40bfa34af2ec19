@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Teste1 {
+
+	public static void main(String[] args) {
+		Scanner scn = new Scanner(System.in);
+		int x = scn.nextInt();
+
+		if ((x >= 25102019 - 10000000) && (x <= 25102019)) {
+			System.out.println("NOTA FISCAL PERMITIDA");
+		}
+
+	}
+
+}
